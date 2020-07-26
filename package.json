@@ -1,6 +1,6 @@
 {
   "name": "commitizen-git",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "介绍 Commitizen 的配置项目",
   "main": "index.js",
   "dependencies": {},
