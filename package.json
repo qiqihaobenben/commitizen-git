@@ -8,7 +8,8 @@
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
     "cz-conventional-changelog": "^3.2.0",
-    "cz-customizable": "^6.2.1"
+    "cz-customizable": "^6.2.1",
+    "husky": "^4.2.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
