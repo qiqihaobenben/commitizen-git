@@ -1,6 +1,6 @@
 {
   "name": "commitizen-git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "介绍 Commitizen 的配置项目",
   "main": "index.js",
   "dependencies": {},
@@ -9,9 +9,11 @@
     "@commitlint/config-conventional": "^9.1.1",
     "cz-conventional-changelog": "^3.2.0",
     "cz-customizable": "^6.2.1",
-    "husky": "^4.2.5"
+    "husky": "^4.2.5",
+    "standard-version": "^8.0.2"
   },
   "scripts": {
+    "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
