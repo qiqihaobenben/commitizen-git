@@ -1,0 +1,29 @@
+{
+  "name": "commitizen-git",
+  "version": "1.0.0",
+  "description": "介绍 Commitizen 的配置项目",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0",
+    "cz-customizable": "^6.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiqihaobenben/commitizen-git.git"
+  },
+  "author": "cfangxu <chenfangxu_qixin@163.com> (https://qiqihaobenben.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qiqihaobenben/commitizen-git/issues"
+  },
+  "homepage": "https://github.com/qiqihaobenben/commitizen-git#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  }
+}
