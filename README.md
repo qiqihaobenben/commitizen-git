@@ -8,7 +8,9 @@
 
 ## 如果你想配置自己的仓库，请按照下面的步骤操作
 
-### 1、依赖安装
+### 1、依赖安装，以下两种方案，选择其中一个你喜欢的
+
+#### 1.1 方案一： 全局安装 commitizen
 
 ```
 // 依次执行
@@ -18,6 +20,16 @@ npm install -g commitizen
 npm install --save-dev cz-customizable @commitlint/config-conventional @commitlint/cli husky standard-version
 
 commitizen init cz-customizable --save-dev --save-exact --force
+```
+
+#### 1.2 方案二： 项目本地安装 commitizen，要求 NPM 5.2+
+
+```
+// 依次执行
+
+npm install --save-dev commitizen cz-customizable @commitlint/config-conventional @commitlint/cli husky standard-version
+
+npx commitizen init cz-customizable --save-dev --save-exact --force
 ```
 
 <br>
