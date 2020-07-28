@@ -4,6 +4,8 @@
 
 ## 本项目可以帮助你体验或者配置 commitizen 友好的仓库
 
+<br>
+
 ## 如果想体验一下，可以把 fork 当前仓库，然后 `npm install` 就好。
 
 <br>
