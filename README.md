@@ -2,7 +2,7 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-## 本项目可以帮助你体验或者配置 commitizen 友好的仓库
+## 本项目可以帮助你体验或者配置 commitizen 友好的仓库，可以点击[《让你的 commit 更有价值》](https://chenfangxu.lap.360.cn/assistive-tools/git/commit.html)查看更详细的配置过程说明。
 
 <br>
 
