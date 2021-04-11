@@ -12,6 +12,8 @@
 
 ## 如果你想配置自己的仓库，请按照下面的步骤操作
 
+> 更新：因为 husky 升级后导致原来的配置方式失效，现增加了安装 husky 的版本为 4.3.8，后续会更新到最新的 husky 版本，并从写相应的配置方法。
+
 ### 1、依赖安装，以下两种方案，选择其中一个你喜欢的
 
 #### 1.1 方案一： 全局安装 commitizen
@@ -21,7 +23,7 @@
 
 npm install -g commitizen
 
-npm install --save-dev cz-customizable @commitlint/config-conventional @commitlint/cli husky standard-version
+npm install --save-dev cz-customizable @commitlint/config-conventional @commitlint/cli husky@4.3.8 standard-version
 
 commitizen init cz-customizable --save-dev --save-exact --force
 ```
@@ -31,7 +33,7 @@ commitizen init cz-customizable --save-dev --save-exact --force
 ```
 // 依次执行
 
-npm install --save-dev commitizen cz-customizable @commitlint/config-conventional @commitlint/cli husky standard-version
+npm install --save-dev commitizen cz-customizable @commitlint/config-conventional @commitlint/cli husky@4.3.8 standard-version
 
 npx commitizen init cz-customizable --save-dev --save-exact --force
 ```
